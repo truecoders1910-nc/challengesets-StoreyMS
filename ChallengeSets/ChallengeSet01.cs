@@ -14,12 +14,12 @@ namespace ChallengeSets
 
         public double Subtract(double minuend, double subtrahend)
         {
-            (minuend - subtrahend);
+            throw new NotImplementedException();
         }
 
         public int Add(int number1, int number2)
         {
-            (number1 + number2);
+            throw new NotImplementedException();
         }
 
         public int GetSmallestNumber(int number1, int number2)
@@ -29,7 +29,7 @@ namespace ChallengeSets
 
         public long Multiply(long factor1, long factor2)
         {
-            (factor1 * factor2);
+            throw new NotImplementedException();
         }
 
         public string GetGreeting(string nameOfPerson)
