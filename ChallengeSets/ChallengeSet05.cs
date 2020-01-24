@@ -86,6 +86,7 @@ namespace ChallengeSets
 
         public double[] GetEveryFourthElement(List<double> elements)
         {
+          
             double[] Arrays = new double[0];
             if (elements == null)
                 return Arrays;
