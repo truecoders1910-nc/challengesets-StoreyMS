@@ -34,6 +34,8 @@ namespace ChallengeSets
             {
                 return business.Name;
             }
+            
+            
             business.Name = GetNameOfHighestParentCompany(business.ParentCompany);
             return business.Name;
         }
