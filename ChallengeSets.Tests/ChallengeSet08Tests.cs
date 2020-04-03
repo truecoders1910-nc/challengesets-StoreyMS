@@ -113,7 +113,7 @@ namespace ChallengeSets.Tests
         {
             // Arrange
             ChallengeSet08 challenger = new ChallengeSet08();
-            char[,] finalResult = new char[4, 3];
+            char[,] finalResult = new char[5, 3];
             for (int col = 0; col < 3; col++) finalResult[0, col] = row1[col];
             for (int col = 0; col < 3; col++) finalResult[1, col] = row2[col];
             for (int col = 0; col < 3; col++) finalResult[2, col] = row3[col];
